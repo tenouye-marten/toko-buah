@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box !important;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.bg {
+  background: #e3fbee;
+}
+.bg-1 {
+  background-color: #fffcfc;
+}
+
+.color1 {
+  color: #05d865;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.p-y {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.p-y-1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*#################################### */
+header {
+  display: flex;
+  background: #faf8f8;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100px;
+
+  flex-wrap: wrap;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 60%;
+}
+
+header .logo {
+  font-size: 30px;
+  width: 40%;
+}
+header .logo a {
+  font-size: 30px;
+}
+
+header .navbar li a {
+  margin: 15px;
+  font-weight: bolder;
+  width: 30%;
+  color: darkslategray;
+}
+header .navbar li a:hover {
+  color: #1daf68;
+  transition: 0.3s;
+}
+.container .row .gambar img {
+  width: 300px;
+}
+
+/* ########################################## */
+
+/* STYLE HOME */
+.container .row .text {
+  width: 50%;
+}
+
+.container .row .text h1 {
+  font-size: 60px;
+  color: darkslategray;
+  text-shadow: 1px 2px 1px #000000;
+}
+
+.container .row .text p {
+  font-size: 70px;
+  text-shadow: 1px 2px 1px #1b1b1b;
+}
+
+.container .row .gambar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+}
+.container .row .gambar img {
+  width: 1000px;
+}
+/* AKHIR STYLE HOME */
+
+/* ########################################## */
+
+.container .row .galery-text {
+  width: 90%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 70px;
+  font-weight: bolder;
+  color: darkslategray;
+  text-shadow: 1px 2px 1px #000000;
+}
+
+.container .row .galery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .row .galery img {
+  width: 30%;
+  margin: 10px;
+  background: #204e35;
+  border: 1px solid #049947; /* Gray border */
+  border-radius: 4px; /* Rounded border */
+  padding: 5px; /* Some padding */
+}
+
+/* Add a hover effect (blue shadow) */
+.container .row .galery img:hover {
+  background: #c3f8db;
+  box-shadow: 0 0 2px 1px rgba(0, 186, 31, 0.5);
+}
+
+/* ############################################### */
+
+/* Form satrt */
+
+.container .row .form-k{
+width: 60%;
+}
+.container .row .login-form {
+
+  color: rgb(107, 106, 106);
+}
+.container .row .login-form h1 {
+  text-shadow: 1px 2px 1px #000000;
+  color: #393a39;
+}
+.container .row .login-form p a {
+  font-weight: bold;
+  color: #049947 ;
+}
+
+
+form input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 20px;
+
+  border: 2px solid #07d861;
+  border-radius: 4px;
+}
+
+
+form input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  padding: 16px 32px;
+  font-weight: bolder;
+  color: white;
+  background: #07d861;
+  cursor: pointer;
+  margin: 4px 2px;
+  border: #07d861;
+  border-radius: 4px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+
+  border: 2px solid #07d861;
+  border-radius: 4px;
+  resize: none;
+}
+
+label {
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+/* end Form*/
+
+/* ############################################### */
+footer {
+  background: #049947;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.container .row .footer-sosial ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.container .row .footer-sosial ul li a {
+  font-size: 20px;
+  font-weight: bolder;
+
+  color: #ceffcc;
+}
+.container .row .footer-sosial small {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ceffcc;
+}
+
+/* ################################################## */
+
+.container .row .judul {
+  width: 100%;
+  padding: 4rem;
+  color: #21bf73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 30px;
+  text-shadow: 1px 2px 1px #1b1b1b;
+}
+
+/* ################################# */
+.container .row .produk {
+  width: 28%;
+  height: 50vh;
+  border: 3px solid #21bf73;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+
+  border-radius: 16px;
+
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+.container .row .produk .produk-gambar img {
+  width: 100%;
+  height: 50vh;
+  height: 150px;
+}
+.container .row .produk .produk-gambar {
+  width: 100%;
+  height: 60vh;
+}
+.container .row .produk .conten {
+  width: 100%;
+  height: 30vh;
+}
+.container .row .produk form input[type="button"] {
+  width: 100%;
+}
+/* ############################## */
+
+/* ################################## */
+
+.container .row .about-box {
+  border: 2px darkolivegreen solid;
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* ################################## */
+
+/* ########################## */
+
+.container .row .login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 60%;
+}
+.container .row .login-form form {
+  width: 90%;
+}
+
+/* ######################## */
+
+/* ##################################### */
+.container .row .map {
+  width: 50%;
+  
+}
+
+
+.container .row .col {
+  width: 50%;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  
+ 
+
+
+  .container .row .text {
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    
+  }
+  .container .row .text h1 {
+    font-size: 3rem;
+  
+  }
+  .container .row .text p {
+    font-size: 2rem;
+  
+  }
+  .container .row .gambar {
+    width: 100%;
+  
+  }
+  .container .row .gambar img{
+    width: 150%;
+  
+  }
+
+
+
+.container .row .galery {
+  width: 80%;
+
+padding-bottom: 50px;
+
+}
+.container .row .galery img {
+  width: 100%;
+
+
+}
+.container .row .galery-text {
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+ 
+}
+
+.container .row .login-form {
+
+  width: 100%;
+}
+
+
+.container .row .about-box {
+
+  margin-bottom: 3rem;
+
+}
+
+.container .row .judul{
+  font-size: 15px;
+  
+}
+
+
+.container .row .produk {
+  width: 100%;
+  height: 40vh;
+
+}
+
+.container .row .map iframe {
+  width: 100%;
+  height: 40vh;
+}
+.container .row .map{
+  width: 100%;
+ padding-bottom: 5rem;
+}
+.container .row .col{
+  width: 100%;
+}
+
+header .logo {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  background: #049947;
+  color: #c3f8db;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+
+header .navbar {
+  display: flex;
+  justify-content:center;
+  list-style: none;
+  width: 100%;
+}
+header .navbar li a {
+ font-size: 11px;
+ width: auto;
+}
+
+header .navbar li  {
+ width: 10%;
+ margin-left: 8px;
+ margin-right: 8px;
+}
+
+.container .row .login-form form input[type="text"] ,input[type="password"] {
+
+ padding: 10px;
+}
+
+
+
+
+
+}
